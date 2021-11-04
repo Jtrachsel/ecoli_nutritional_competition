@@ -1,0 +1,101 @@
+---
+title: "E. coli nutritional exclusion update"
+author: "Julian Trachsel"
+date: "11/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+## Kathy's progress so far  
+
+Detailed notebook at https://github.com/USDA-FSEPRU/FS19C-commensal-Ecoli  
+
+
+<!-- Words from the project plan -->
+## Objective
+Conduct comparative genomics to identify unique characteristics of commensal *E. coli* relative to Shiga-toxin producing E. coli (STEC) such as EDL933, RM6067, TW14588, FRIK1989 (used in FS19 study) that may help them outcompete or co-survive with STEC.
+
+## Goals and Objectives from Project Plan NP 108 Food Safety (2021-2025):
+* ###### Objective 2:
+  * Commensal *E. coli* able to compete with STEC at the rectoanal junction will be isolated and E. coli encoded factors effective against STEC will be characterized... Collectively, the data will be used to generate targets for novel strategies against STEC attachment and colonization at the rectoanal junction.
+* ###### Sub-objective 2.A:
+  * Identify novel *E. coli* with encoded bacteriocins, or competitive nutritional networks that interfere with O157 viability, growth, or attachment to food animal intestinal mucosa.
+* ###### Goal 2.A:
+  * Identify commensal *E. coli* for use as competitor to O157 attachment, colonization, or survival.
+  
+  
+Detailed notebook at https://github.com/USDA-FSEPRU/FS19C-commensal-Ecoli  
+1) isolated  
+  - 96 isolates (sorbitol-positive and sorbitol-negative) collected from FS19 STEC colonization study in dairy calves.  
+2) sequenced and assembled E. coli genomes 
+  - 95 isolates
+3) preliminary comp genomics:
+  1) what isolates lack virulence genes:
+    - only one isolate lacks the virulence genes kathy looked for.
+    - run AMR finder on genomes
+      -fig of # of vir genes
+    - AMR containing elements
+  2) sugar catabolism genes:
+    - what has kathy done here?
+
+
+
+
+
+
+
+
+
+
+
+<!-- Ideas for future work on this project: -->
+
+#Future work on this objective  
+## Change up how we isolate commensal ecoli,  
+only isolate from hosts with a desirable phenotype.  
+how to get this phenotype from hosts without infection trial?  
+In vitro growth studies as done in the following pub(s?):  
+1) collect fresh feces from large number of hosts  
+2) grow pathogens in culture with fecal sample  
+3) measure CFUs of input pathogen  
+4) classify host microbiome phenotype as 'susceptible' 'intermediate' or 'resistant'  
+5) isolate organisms from resistant (and susceptible)  
+6) once you have a collection of organisms of interest:
+7) collect more feces, this time split feces into 2, one gets inoculated with pathogen only, 
+  - the other gets inoculated with both pathogen and potential organism
+  - measure CFUs for each condition, 
+  - more closely examine those that turn susceptible turds into resistant turds
+
+
+Salmonella nutritional competition:  
+E. coli enhance colonization resistance against Salmonella Typhimurium by competing for galactitol, a context-dependent limiting carbon source  
+https://doi.org/10.1016/j.chom.2021.09.004  
+
+
+Klebsiella nutritional competition:  
+Klebsiella oxytoca causes colonization resistance against multidrug-resistant K. pneumoniae in the gut via cooperative carbohydrate competition
+https://doi.org/10.1016/j.chom.2021.09.003  
+
+
+
+# Klebsiella methods  
+1) fecal samples from donors (multiple samples over time)  
+2) grow klebsiella in fecal samples under anaerobic conditions  
+3) evaluate susceptibility to colonization  
+4) investigate resistant communities for potential probiotics
+  - investigate suseptible communities for risk factors?
+  
+# Ecoli/Salm methods?
+
+
+### SCHEMEZONE
+https://www.sciencedirect.com/science/article/pii/S1931312821003449
+maybe traditional 'virulence' genes are just more generally colonization genes?
+class of proteins thought to be 'pathogenesis' genes are widespread in commensals, 
+maybe better thought of as fitness factors for host colonization?
+maybe excluding on isolates based on 'virulence genes' not good idea.
+

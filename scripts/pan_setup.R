@@ -15,4 +15,7 @@ build_ppanggolin_file_fastas(complete_genome_paths = complete_genomes,
                              incomplete_genome_paths = incomplete_genomes) %>%
   write_tsv('ppanggolin.file', col_names = F)
 
+# conda activate ppanggolin
+# ppanggolin panrgp --fasta ppanggolin.file -o pan -c 60
+
 
