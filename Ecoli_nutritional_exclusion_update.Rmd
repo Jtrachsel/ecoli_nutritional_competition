@@ -43,6 +43,10 @@ Detailed notebook at https://github.com/USDA-FSEPRU/FS19C-commensal-Ecoli
     - what has kathy done here?
 
 
+TODO:
+1) run amrfinder
+2) run bagle4
+3) 
 
 
 
